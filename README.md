@@ -1,5 +1,5 @@
-Tesseract Language Trained Data
-===============================
+tessdata - Tesseract Language Trained Data
+==========================================
 
 # Accessible URLs
 
@@ -20,7 +20,7 @@ Tesseract Language Trained Data
 For 4.0.0, the trained data is forked from [TessData Github](https://github.com/tesseract-ocr/tessdata/tree/4.0.0), and gzip by following command:
 
 ```
-sh gzip-traineddata.sh 4.0.0
+$ sh gzip-traineddata.sh 4.0.0
 ```
 
 ### 3.02
