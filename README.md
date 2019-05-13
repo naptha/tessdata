@@ -5,12 +5,12 @@ tessdata - Tesseract Language Trained Data
 
 ### 4.0.0
 
-- [http://tessdata.projectnaptha.com/4.0.0/eng.traineddata.gz](http://tessdata.projectnaptha.com/4.0.0/eng.traineddata.gz)
+- [https://tessdata.projectnaptha.com/4.0.0/eng.traineddata.gz](http://tessdata.projectnaptha.com/4.0.0/eng.traineddata.gz)
 - [https://raw.githubusercontent.com/naptha/tessdata/gh-pages/4.0.0/eng.traineddata.gz](https://raw.githubusercontent.com/naptha/tessdata/gh-pages/4.0.0/eng.traineddata.gz)
 
 ### 3.02
 
-- [http://tessdata.projectnaptha.com/3.02/eng.traineddata.gz](http://tessdata.projectnaptha.com/3.02/eng.traineddata.gz)
+- [https://tessdata.projectnaptha.com/3.02/eng.traineddata.gz](http://tessdata.projectnaptha.com/3.02/eng.traineddata.gz)
 - [https://raw.githubusercontent.com/naptha/tessdata/gh-pages/3.02/eng.traineddata.gz](https://raw.githubusercontent.com/naptha/tessdata/gh-pages/3.02/eng.traineddata.gz)
 
 # Sources
