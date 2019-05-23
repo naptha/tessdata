@@ -1,0 +1,20 @@
+{
+  "name": "@tess-data/que",
+  "version": "1.0.0",
+  "description": "traineddata for tesseract.js",
+  "main": "index.js",
+  "browser": "traineddata.js",
+  "author": "Jerome Wu <jeromewus@gmail.com> (https://github.com/jeromewu)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naptha/tessdata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/naptha/tessdata/issues"
+  },
+  "homepage": "https://github.com/naptha/tessdata"
+}

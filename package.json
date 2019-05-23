@@ -1,0 +1,10 @@
+{
+  "name": "tessdata",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  }
+}
