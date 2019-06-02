@@ -1,7 +1,6 @@
 [submodule "tesseract-ocr/tessdata_fast"]
 	path = tesseract-ocr/tessdata_fast
-	url = https://github.com/tesseract-ocr/tessdata_fast
-  fetchRecurseSubmodules = false
+	url = https://github.com/jeromewu/tessdata_fast 
   shallow = true
 [submodule "tesseract-ocr/tessdata_best"]
 	path = tesseract-ocr/tessdata_best
