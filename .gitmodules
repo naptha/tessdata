@@ -1,0 +1,9 @@
+[submodule "tesseract-ocr/tessdata_fast"]
+	path = tesseract-ocr/tessdata_fast
+	url = git@github.com:tesseract-ocr/tessdata_fast.git
+[submodule "tesseract-ocr/tessdata_best"]
+	path = tesseract-ocr/tessdata_best
+	url = https://github.com/tesseract-ocr/tessdata_best
+[submodule "tesseract-ocr/tessdata"]
+	path = tesseract-ocr/tessdata
+	url = git@github.com:tesseract-ocr/tessdata.git
