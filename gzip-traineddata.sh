@@ -1,6 +1,12 @@
 #!/bin/bash
-VERSION=$1
+SOURCE=$1
+TARGET=$2
+CURRENT_DIR=$PWD
 
-for tdata in $(ls $VERSION/);do
-  gzip $VERSION/$tdata
+cd $SOURCE
+for tdata in $(ls *.traineddata);do
+  cp $tdata $CURRENT_DIR/$TARGET/$tdata
+  rm -rf $CURRENT_DIR/$TARGET/$tdata.gz
+  gzip $CURRENT_DIR/$TARGET/$tdata
 done
+cd -
