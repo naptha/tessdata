@@ -6,7 +6,7 @@ const files = fs.readdirSync(path.join(__dirname, '..', '4.0.0'));
 files.forEach((file) => {
   const lang = file.split('.')[0];
   const readme =
-`# @tess-data/${lang}
+`## Overview
 
 ${lang} traineddata for tesseract.js
 

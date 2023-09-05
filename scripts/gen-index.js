@@ -6,16 +6,12 @@ const files = fs.readdirSync(path.join(__dirname, '..', '4.0.0'));
 files.forEach((file) => {
   const lang = file.split('.')[0];
   const indexjs =
-    `const fs = require('fs');
-const path = require('path');
-
-const buff = fs
-  .readFileSync(path.join(__dirname, '${lang}.traineddata.gz'))
+    `const path = require('path');
 
 module.exports = {
   code: '${lang}',
   gzip: true,
-  data: buff,
+  langPath: path.join(__dirname, '4.0.0')
 };`
   fs.writeFileSync(path.join(__dirname, '..', 'packages', lang, 'index.js'), indexjs);
 });

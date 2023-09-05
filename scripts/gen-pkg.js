@@ -9,7 +9,7 @@ const genPkg = (lang, version) => (
   "version": "${version}",
   "description": "traineddata for tesseract.js",
   "main": "index.js",
-  "author": "",
+  "author": "Balearica <admin@scribeocr.com>",
   "contributors": [{"name": "Balearica"}, {"name": "jeromewu"}],
   "license": "MIT",
   "publishConfig": {
@@ -30,5 +30,5 @@ const files = fs.readdirSync(path.join(__dirname, '..', '4.0.0'));
 files.forEach((file) => {
   const lang = file.split('.')[0];
   fs.mkdirSync(path.join(__dirname, '..', 'packages', lang));
-  fs.writeFileSync(path.join(__dirname, '..', 'packages', lang, 'package.json'), genPkg(lang, '0.1.0'));
+  fs.writeFileSync(path.join(__dirname, '..', 'packages', lang, 'package.json'), genPkg(lang, '1.0.0'));
 });
